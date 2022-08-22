@@ -3,7 +3,7 @@ package ru.gb.siyanov;
 public class Main {
     public static void main(String[] args) {
         //Задание 1
-        String[] arr = {"ddd", "fff", "eee"};
+        String[] arr = {"aaa", "bbb", "ccc"};
         ArrayChanges <String> newArr = new ArrayChanges<>();
         System.out.println(newArr.convertingToArrayList(arr));
         newArr.elementReplacement(arr, 1, 2);
